@@ -1,0 +1,35 @@
+.container {
+	width: 40%;
+	margin: 0 auto;
+	background: grey;
+	padding: 20px;
+}
+
+.controls {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.button_cont {
+	display: inline-block;
+    width: 139px;
+    height: 50px;
+    background: #04861e;
+    border-radius: 25px;
+    padding-top: 18px;
+}
+
+.button {
+	margin: 10px 20px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.stopwatch {
+	text-align: center;
+	font-size: 45px;
+}
+
+.result {
+	text-align: center;
+}

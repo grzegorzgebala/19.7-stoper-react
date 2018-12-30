@@ -6,21 +6,12 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-  	<div class="container">
-	    <nav class="controls">
-	    	<div class="button_cont" id="start">
-	      		<a href="#" class="button" >Start</a>
-	      	</div>
-			<div class="button_cont" id="stop">
-	      		<a href="#" class="button" >Stop</a>
-	      	</div>
-	      	<div class="button_cont" id="reset">
-	      		<a href="#" class="button" >Reset</a>
-	      	</div>
-	    </nav>
-	    <div class="stopwatch"></div>
-	    <ul class="results"></ul>
-	<div>
-    <script type="text/javascript" src="script-compiled.js"></script>
+  	
+		<div id="app"></div>
+
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://github.com/babel/babel-standalone/releases/download/release-6.26.0/babel.min.js"></script>
+    <script type="text/babel" src="script.jsx"></script>
   </body>
 </html>

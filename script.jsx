@@ -1,3 +1,22 @@
+/*<div class="container">
+	    <nav class="controls">
+	    	<div class="button_cont" id="start">
+	      		<a href="#" class="button" >Start</a>
+	      	</div>
+			<div class="button_cont" id="stop">
+	      		<a href="#" class="button" >Stop</a>
+	      	</div>
+	      	<div class="button_cont" id="reset">
+	      		<a href="#" class="button" >Reset</a>
+	      	</div>
+	    </nav>
+	    <div class="stopwatch"></div>
+	    <ul class="results"></ul>
+	<div>
+*/
+
+
+
 class Stopwatch {
     constructor(display) {
         this.running = false;
@@ -73,7 +92,29 @@ function pad0(value) {
     return result;
 }
 
-
+var App = React.createClass({
+  render: function() {
+    return (
+      <div className="app">
+      	<div class="container">
+		    <nav class="controls">
+		    	<div class="button_cont" id="start">
+		      		<a href="#" class="button" >Start</a>
+		      	</div>
+				<div class="button_cont" id="stop">
+		      		<a href="#" class="button" >Stop</a>
+		      	</div>
+		      	<div class="button_cont" id="reset">
+		      		<a href="#" class="button" >Reset</a>
+		      	</div>
+		    </nav>
+		    <div class="stopwatch"></div>
+		    <ul class="results"></ul>
+		</div>
+      </div>
+    	)
+    }
+});
 
 const stopwatch = new Stopwatch(
 document.querySelector('.stopwatch'));
@@ -86,3 +127,6 @@ stopButton.addEventListener('click', () => stopwatch.stop());
 
 let resetButton = document.getElementById('reset');
 resetButton.addEventListener('click', () => stopwatch.reset2());
+
+var app = React.createElement(App);
+ReactDOM.render(app, document.getElementById('app'));

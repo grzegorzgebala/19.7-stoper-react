@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel script.js --watch --out-file script-compiled.js"
+    "start": "babel script.jsx --watch --out-file script-compiled.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/grzegorzgebala/es6-1#readme",
   "description": "",
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "http-server": "^0.11.1"
   }
 }

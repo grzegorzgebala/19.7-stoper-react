@@ -1,6 +1,7 @@
 {
-  "name": "es6",
+  "name": "stopwatch-react-es6",
   "version": "1.0.0",
+  "description": "stopwatch app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,21 +11,17 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
-    "browser-sync": "^2.24.5",
-    "node-sass": "^4.9.1",
-    "npm-run-all": "^4.1.3"
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
   },
+  "dependencies": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/grzegorzgebala/es6-1.git"
+    "type": "",
+    "url": ""
   },
+  "keywords": [],
   "bugs": {
-    "url": "https://github.com/grzegorzgebala/es6-1/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/grzegorzgebala/es6-1#readme",
-  "description": "",
-  "dependencies": {}
+  "homepage": ""
 }
